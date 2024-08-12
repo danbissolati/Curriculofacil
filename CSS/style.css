@@ -2,7 +2,7 @@
     --font-titulo: "Montserrat", sans-serif;
 
     --cor-fundo: #f8ede8;
-    --cor-botao: rgb(255, 248, 237);
+    --cor-botao: rgb(255, 245, 245);
     --cor-preta: black;
     --cor-texto: #363636;
 }
@@ -28,7 +28,6 @@ body{
 }
 
 .menu .nav-menu{
-    border: solid red 1px;
     display: flex;
     justify-content: space-between;
     list-style: none;
