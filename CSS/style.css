@@ -18,13 +18,12 @@ html {
 body{
     margin: 0;
     background-color: var(--cor-fundo);
-
+    padding: 0 4%;
 }
 
 .menu{
     display: block;
-    padding: 0 4%;
-
+    
 }
 
 .menu .nav-menu{
@@ -68,5 +67,6 @@ body{
 }
 
 main {
+    
     border: solid 1px red ;
 }
