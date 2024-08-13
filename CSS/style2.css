@@ -40,12 +40,17 @@ body{
 .menu .nav-items{
     font-size: 30px;
 }
+.nav-menu img{
+    width: 130px;
+    padding: 10px;
+}
 
 .nav-link {
     text-decoration: none;
     color: var(--cor-fundo);
     transition: .5s;
     border-radius: 15px;
+    padding: 20px;
   }
 
 .btt-cv{
@@ -71,6 +76,84 @@ body{
 }
 
 main {
+    margin: 40px 4%;
+}
+
+.cont-primario{
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 40px 4%;
+    align-items: center;
+}
+.cont-primario img{
+    width: 250px
+}
+.cont-primario h3{
+    font-size: 40px;
+    color: var(--cor-bg);
+}
+.cont-primario h3 span{
+    color: var(--);
+}
+
+.cont-primario p{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cor-texto);
+
+}
+.cont-primario button{
+    margin-top: 30px;
+    border-radius: 15px;
+    padding: 20px;
+    border-style: none;
+    color: var(--cor-fundo);
+    font-size: 20px;
+    background-color: #001727;
+    box-shadow: 0 0 8px var(--cor-bg);
+    transition: .5s;
+}
+.cont-primario button:hover{
+    margin-top: 30px;
+    border-radius: 15px;
+    padding: 20px;
+    border-style: none;
+    color: var(--cor-fundo);
+    font-size: 20px;
+    background-color: #001727;
+    box-shadow: 0 0 8px var(--cor-bg);
+    transform: scale(1.05);
+    transition: .5s;
+
+}
+.cont-sobre{
+    margin-top: 5em;
+    display: flex;
+    background-color: #001727;
+    padding: 40px 4%;
+    gap: 40px;
+    color: var(--cor-fundo);
+    align-items: center;
+    border-radius: 100px;
+
     
-    border: solid 1px red ;
+}
+
+.cont-sobre h3{
+    font-size: 50px;
+}
+
+.cont-sobre p{
+    text-align: justify;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.cont-sobre img{
+    width: 800px;
+    border-radius: 50px;
+    box-shadow: 0 0 5px var(--cor-fundo);
 }
