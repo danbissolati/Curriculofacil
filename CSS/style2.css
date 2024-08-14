@@ -80,6 +80,7 @@ main {
 }
 
 .cont-primario{
+    margin-top: 200px;
     gap: 40px;
     display: flex;
     justify-content: center;
@@ -129,7 +130,7 @@ main {
 
 }
 .cont-sobre{
-    margin-top: 5em;
+    margin-top: 200px;
     display: flex;
     background-color: #001727;
     padding: 40px 4%;
@@ -156,4 +157,63 @@ main {
     width: 800px;
     border-radius: 50px;
     box-shadow: 0 0 5px var(--cor-fundo);
+}
+section.contato{
+    width: 650px;
+    height: 500px;
+    background-color: var(--cor-bg);
+    margin-top: 100px;
+    padding: 4%;
+    border-radius: 50px;
+    margin: 100px auto;
+   
+}
+.contato-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.contato-info {
+    flex: 1;
+    padding-right: 20px;
+}
+.contato-info h2 {
+    font-size: 35px;
+    color: var(--cor-fundo);
+}
+.contato-info p {
+    font-size: 15px;
+    color: var(--cor-fundo);
+}
+.contato-form {
+    flex: 1;
+}
+.contato-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: var(--cor-fundo);
+}
+.contato-form input,
+.contato-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+.contato-form button {
+    background-color: var(--cor-fundo);
+    color: var(--cor-bg);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px; 
+    cursor: pointer;
+    transition: .5s;
+}
+.contato-form button:hover {
+   transform: scale(1.05);
+   transition: .5s;
 }
